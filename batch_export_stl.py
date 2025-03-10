@@ -2,7 +2,7 @@ bl_info = {
     "name": "Batch STL Exporter",
     "blender": (4, 0, 0),  # Adjust this if needed for other versions
     "category": "Import-Export",
-    "author": "Your Name",
+    "author": "Stefan 'ramsesoriginal' Insam",
     "version": (1, 0, 0),
     "location": "File > Export > Batch STL Exporter",
     "description": "Exports all visible mesh objects as individual STL files",

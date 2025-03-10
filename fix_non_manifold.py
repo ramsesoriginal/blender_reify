@@ -2,7 +2,7 @@ bl_info = {
     "name": "Auto-Fix Non-Manifold Geometry",
     "blender": (4, 0, 0),
     "category": "Mesh",
-    "author": "Your Name",
+    "author": "Stefan 'ramsesoriginal' Insam",
     "version": (1, 0, 2),
     "location": "3D Viewport > Sidebar > Tools Tab",
     "description": "Detects and fixes non-manifold geometry, holes, flipped normals, and duplicate vertices.",
