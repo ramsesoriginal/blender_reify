@@ -5,6 +5,7 @@
 ## Features
 
 - **Batch STL Export:** Effortlessly export multiple mesh objects to STL format.
+- **Auto-Fix Non-Manifold Geometry:** Detects and fixes non-manifold geometry, holes, flipped normals, and duplicate vertices.
 
 ## Installation
 
@@ -28,10 +29,14 @@
    - Search for "Blender Reify" and enable it.
 
 2. **Access Tools:**
-   - **TODO** Find the tools in the `3D Viewport` under the `Tool Shelf` or `N-panel`.
+   - The tools can be found in the `3D Viewport` under the `Tool Shelf` or `N-panel`.
 
 3. **Batch STL Export:**
    - Use the "Batch Export STL" operator to export visible mesh objects.
+
+4. **Auto-Fix Non-Manifold Geometry:**
+   - Navigate to the `3D Viewport` > `Tool Shelf` > `Tools Tab`.
+   - Click on **Fix Non-Manifold Geometry** to automatically clean all visible mesh objects.
 
 ## Contributing
 
