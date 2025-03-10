@@ -51,7 +51,7 @@ class OBJECT_OT_batch_export_stl(bpy.types.Operator):
                     ascii_format=False,
                     apply_modifiers=True,
                     global_scale=1.0,
-                    use_scene_unit=True,
+                    use_scene_unit=False,
                     forward_axis='Y',
                     up_axis='Z'
                 )
