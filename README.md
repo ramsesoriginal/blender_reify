@@ -58,8 +58,7 @@
    - Found in the `3D Viewport` > `Tool Shelf` > `Tools Tab`.
    - Adds an edge loop near the apex of a cone to allow further loop cuts.
    - Features:
-      - Auto Detect Apex: Automatically detects the highest vertex as the cone's apex.
-      - Manual Selection: Alternatively, you can select the apex manually.
+      - Just select the Apex of the Cone, then use the tool
       - Customizable Fraction: Control how far down the loop cut is applied (default: 50%).
 
 ## Contributing
