@@ -6,6 +6,7 @@
 
 - **Batch STL Export:** Effortlessly export multiple mesh objects to STL format.
 - **Auto-Fix Non-Manifold Geometry:** Detects and fixes non-manifold geometry, holes, flipped normals, and duplicate vertices.
+- **Gothic Architecture Tools:** Generate Gothic elements such as pointed arches, rib vaults, flying buttresses, tracery, gargoyles, spires, and lancet windows.
 
 ## Installation
 
@@ -37,6 +38,20 @@
 4. **Auto-Fix Non-Manifold Geometry:**
    - Navigate to the `3D Viewport` > `Tool Shelf` > `Tools Tab`.
    - Click on **Fix Non-Manifold Geometry** to automatically clean all visible mesh objects.
+
+4. **Gothic Architecture Tools:**
+   - Navigate to the `3D Viewport` > `Tool Shelf` > `Gothic Tools`.
+   - Provides various operators for generating and modifying Gothic structures:
+      - Pointed Arches
+      - Pointed Rib Vaults
+      - Flying Buttresses
+      - Divine Flying Buttresses (Inspired by grand Gothic cathedrals)
+      - Tracery
+      - Gargoyles
+      - Spires
+      - Lancet Windows
+         - Converts inset geometry into pointed Gothic-style windows with smooth curvature.
+         - Adjustable settings for segment count, curvature, and proportions.
 
 ## Contributing
 
