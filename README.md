@@ -7,6 +7,7 @@
 - **Batch STL Export:** Effortlessly export multiple mesh objects to STL format.
 - **Auto-Fix Non-Manifold Geometry:** Detects and fixes non-manifold geometry, holes, flipped normals, and duplicate vertices.
 - **Gothic Architecture Tools:** Generate Gothic elements such as pointed arches, rib vaults, flying buttresses, tracery, gargoyles, spires, and lancet windows.
+- **Add Edge Loop to Cone:** Adds an edge loop near the apex of cone objects to allow further loop cuts.
 
 ## Installation
 
@@ -39,7 +40,7 @@
    - Navigate to the `3D Viewport` > `Tool Shelf` > `Tools Tab`.
    - Click on **Fix Non-Manifold Geometry** to automatically clean all visible mesh objects.
 
-4. **Gothic Architecture Tools:**
+5. **Gothic Architecture Tools:**
    - Navigate to the `3D Viewport` > `Tool Shelf` > `Gothic Tools`.
    - Provides various operators for generating and modifying Gothic structures:
       - Pointed Arches
@@ -52,6 +53,14 @@
       - Lancet Windows
          - Converts inset geometry into pointed Gothic-style windows with smooth curvature.
          - Adjustable settings for segment count, curvature, and proportions.
+
+5. **Add Edge Loop to Cone:**
+   - Found in the `3D Viewport` > `Tool Shelf` > `Tools Tab`.
+   - Adds an edge loop near the apex of a cone to allow further loop cuts.
+   - Features:
+      - Auto Detect Apex: Automatically detects the highest vertex as the cone's apex.
+      - Manual Selection: Alternatively, you can select the apex manually.
+      - Customizable Fraction: Control how far down the loop cut is applied (default: 50%).
 
 ## Contributing
 
